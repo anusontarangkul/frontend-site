@@ -12,6 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body class="is-preload">
@@ -50,7 +51,9 @@
 		<div class="container">
 			<header>
 				<h2>My Story</h2>
-				<p>Odio turpis amet sed consequat eget posuere consequat.</p>
+				<p>My name is David Anusontarangkul and I'm a frontend web developer looking to join a team. I am
+					fascinated about how you can turn a blank white html page to an aesthetically pleasing website with
+					programming functionality.</p>
 			</header>
 			<div class="row aln-center">
 				<div class="col-4 col-6-medium col-12-small">
@@ -155,25 +158,27 @@
 			</header>
 			<div class="row">
 				<div class="col-4">
-					<a href="https://www.linkedin.com/in/anusontarangkul/" target="_blank">
+					<a href="https://www.linkedin.com/in/anusontarangkul/" target="_blank" data-toggle="tooltip"
+						title="linkedIn">
 						<img class="contact-icon" src="images/icons/linkedin-icon.png">
 					</a>
 				</div>
 
 
 				<div class="col-4">
-					<a href="./resume.pdf" target="_blank">
+					<a href="./resume.pdf" target="_blank" data-toggle="tooltip" title="resume">
 						<img class="contact-icon" src="images/icons/resume-icon.svg">
 					</a>
 				</div>
 				<div class="col-4">
-					<a href="https://github.com/anusontarangkul" target="_blank">
+					<a href="https://github.com/anusontarangkul" target="_blank" data-toggle="tooltip" title="github">
 						<img class="contact-icon" src="images/icons/github-icon.svg">
 					</a>
 				</div>
 			</div>
+		</div>
 
-			<!-- <div class="row">
+		<!-- <div class="row">
 				<div class="col-12">
 					<form method="post" action="#">
 						<div class="row">
@@ -220,16 +225,16 @@
 								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
 								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
 								-->
-			<!-- </ul>
+		<!-- </ul>
 			<hr />
 		</div>
 		</div> -->
-			<footer>
-				<ul id="copyright">
-					<li>&copy; Untitled. All rights reserved.</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</footer>
+		<footer>
+			<ul id="copyright">
+				<li>&copy; Untitled. All rights reserved.</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</footer>
 		</div>
 	</article>
 
@@ -240,6 +245,9 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<script src="app.js"></script>
+	<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
 
 </body>
 
