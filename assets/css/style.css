@@ -1,5 +1,5 @@
 .contact-icon {
-  height: 7rem;
+  height: 6rem;
   width: auto;
 }
 
@@ -77,4 +77,19 @@
   .review-article {
     min-height: 48rem;
   }
+}
+
+.contact-head {
+  color: beige;
+  font-weight: bold;
+}
+
+.contact-sub {
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.contact-details {
+  font-style: italic;
+  margin-top: -5%;
 }
